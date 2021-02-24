@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Barbez</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+  
+  
 </head>
 <body>
     <!-- header section -->
@@ -18,7 +22,7 @@
                 <div class="lid"><div class="bar"></div></div>
                 <ul>
                   <li><a href="#hero" data-after="Home">Home</a></li>
-                  <li><a href="#services" data-after="Service">Services</a></li>
+                  <li><a href="#services" data-after="Service">Skills</a></li>
                   <li><a href="#projects" data-after="Projects">Projects</a></li>
                   <li><a href="#about" data-after="About">About</a></li>
                   <li><a href="#contact" data-after="Contact">Contact</a></li>
@@ -27,6 +31,247 @@
             </div>
           </div>
         </section>
+        <!-- header end -->
+        <!-- name section -->
+        <section id="hero">
+            <div class="hero container">
+              <div>
+                <h1>Hello, <span></span></h1>
+                <h1>My Name is <span></span></h1>
+                <h1>Barnabas Kamau<span></span></h1>
+                <h1>I am fullstack developer</h1><span></span></h1>
+                <a href="#projects" type="button" class="cta">Portfolio</a>
+              </div>
+            </div>
+          </section>
+
+        <!-- skills section -->
+        <div class="services-section">
+          <div class="inner-width">
+            <h1 class="section-title" id= "services">My Skills</h1>
+            <div class="border"></div>
+            <div class="services-container">
     
+              <div class="service-box">
+                <div class="service-icon">
+                  <!-- <i class="fas fa-paint-brush"></i> -->
+                  <img src = "img/html5.png">
+                </div>
+                <div class="service-title">HTML5</div>
+                <div class="service-desc">
+                  I wouldn't not be a complete developer without knowing on how to go about the 
+                  templates for in building web apps I use it.
+                </div>
+              </div>
+    
+              <div class="service-box">
+                <div class="service-icon">
+                  <!-- <i class="fas fa-code"></i> -->
+                  <img src = "img/css.png">
+                </div>
+                <div class="service-title">CSS</div>
+                <div class="service-desc">
+                  Templates have to be styled. CSS here comes in handy.
+                </div>
+              </div>
+    
+              <div class="service-box">
+                <div class="service-icon">
+                  <!-- <i class="fas fa-brush"></i> -->
+                  <img src = "img/js.png">
+                </div>
+                <div class="service-title">Javascript</div>
+                <div class="service-desc">
+                  Templates have to be made more dynamic and appealing.
+                </div>
+              </div>
+    
+              <div class="service-box">
+                <div class="service-icon">
+                  <!-- <i class="fas fa-object-ungroup"></i> -->
+                  <img src = "img/python1.png">
+                </div>
+                <div class="service-title">Python</div>
+                <div class="service-desc">
+                  This is a growing skill which I work on regularly. I have endeavoured to also master it's frameworks(Django and Flask)
+                </div>
+              </div>
+    
+              <div class="service-box">
+                <div class="service-icon">
+                  <!-- <i class="fas fa-database"></i> -->
+                  <img src = "img/postgre.png">
+                </div>
+                <div class="service-title">Postgresql</div>
+                <div class="service-desc">
+                 I am acquinted to use posgres, a relational database management system.
+                </div>
+              </div>
+    
+              <div class="service-box">
+                <div class="service-icon">
+                  <!-- <i class="fab fa-android"></i> -->
+                  <img src = "img/django.png">
+                </div>
+                <div class="service-title">Django</div>
+                <div class="service-desc">
+                  Versed with the django-framework.
+                </div>
+              </div>
+
+              <div class="service-box">
+                <div class="service-icon">
+                  <!-- <i class="fab fa-android"></i> -->
+                  <img src = "img/flask.png">
+                </div>
+                <div class="service-title">Flask</div>
+                <div class="service-desc">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of skills -->
+          <!-- projects section -->
+          <section id="projects">
+            <div class="projects container">
+              <div class="projects-header">
+                <h1 class="section-title" >Recent <span>Projects</span></h1>
+              </div>
+              <div class="all-projects">
+                <div class="project-item">
+                  <div class="project-info">
+                   <a href="https://barnabas27.github.io/github-search/"><h1><span>Github Search</span></h1></a>
+                    <h2></h2>
+                    <p>This project has been developed by Angular CLI. It is to enable the user to search
+                       for github users and through this, their public repos are also displayed.</p>
+                  </div>
+                  <div class="project-img">
+                    <img src="img/github-search" alt="img">
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-info">
+                    <a href="https://barnabas27.github.io/Pizero/"><h1>Pizerro</h1></a>
+                    <h2></h2>
+                    <p>Pizzero is a project for a pizza shop, where customers get to order their taste of pizza and get to be alerted before checkout what 
+                      they have ordered and the total damage they have incurred.</p>
+                  </div>
+                  <div class="project-img">
+                    <img src="img/Pizero" alt="img">
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-info">
+                   <a href="https://b-ig-app.herokuapp.com/accounts/login/?next=/"> <h1>Instagram(IG) clone</h1></a>
+                    <h2></h2>
+                    <p>This is an app akin to Instagram app. A user can log in to post images 
+                      as well as comment,like and follow other users.</p>
+                  </div>
+                  <div class="project-img">
+                    <img src="img/IG Pic" alt="img">
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-info">
+                   <a href="https://beez-blog.herokuapp.com/"><h1>Beez-Blog</h1></a>
+                    <h2></h2>
+                    <p>BeezBlog is a personal blogging website where you can create and share opinions and other users can read and comment on them. 
+                      It has an additional feature in that it displays random quotes to inspire the users.</p>
+                  </div>
+                  <div class="project-img">
+                    <img src="img/beez" alt="img">
+                  </div>
+                </div>
+                <div class="project-item">
+                  <div class="project-info">
+                  <a href="https://barnabas27.github.io/quote-app/"> <h1>Quote-app</h1></a> 
+                    <h2></h2>
+                    <p>An angular app, that allows users to add quotes and also vote for the most inspiring quotes.</p>
+                  </div>
+                  <div class="project-img">
+                    <img src="img/Quotes" alt="img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- about section -->
+          <section id="about">
+            <div class="about container">
+              <div class="col-left">
+                <div class="about-img">
+                  <img src="./img/img-2.png" alt="img">
+                </div>
+              </div>
+              <div class="col-right">
+                <h1 class="section-title">About <span>me</span></h1>
+                <h2>A fullstack Developer</h2>
+                <p>I am an upcoming software engineer keen on pursuing a career in building, designing or testing software. My course work has seen me acquire the necessary skills to fit into the job market and I believe I am competent to deliver in all the roles I am tasked with. Moreover, I am also equipped with knowledge in web design and development and continually learning current trends in the programming field. I am an individual who works effectively both individually and in a team. 
+                  I seek to hone my skills in a  programming environment that will give me an opportunity to utilize my skills.</p>
+                <a href="#" class="cta">Download Resume</a>
+              </div>
+            </div>
+          </section>
+          <!-- contact section -->
+          <section id="contact">
+            <div class="contact container">
+              <div><h1 class="section-title">Contact <span>info</span></h1></div>
+              <div class="contact-items">
+                <div class="contact-item">
+                  <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+                  <div class="contact-info">
+                    <h1>Phone</h1>
+                    <h2>+254 705998650</h2>
+                    
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+                  <div class="contact-info">
+                    <h1>Email</h1>
+                    <h2>bkamau032@gmail.com</h2>
+                    
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+                  <div class="contact-info">
+                    <h1>Address</h1>
+                    <h2>Nairobi</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- footer -->
+          <section id="footer">
+            <div class="footer container">
+              <div class="brand"><h1><span>B</span>arnabas <span>K</span>amau</h1></div>
+              <h2>Your Complete Web Solution</h2>
+              <div class="social-icon">
+                <div class="social-item">
+                  <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+                </div>
+                <div class="social-item">
+                  <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+                </div>
+                <div class="social-item">
+                  <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+                </div>
+                <div class="social-item">
+                  <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png"/></a>
+                </div>
+              </div>
+              <p>Copyright © 2020 Barnabas. All rights reserved </p>
+            </div>
+        </section>
+        <script src="js/app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!-- <script src="js/jquery-2.1.1.js"></script> -->
+        <script src="js/tagcanvas.js"></script>
+        <script src="lib/magnific-popup/jquery.magnific-popup.js"></script>
+        <script src="js/scripts.js"></script>
 </body>
 </html>
